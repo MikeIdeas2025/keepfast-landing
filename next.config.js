@@ -4,6 +4,10 @@ const nextConfig = {
   images: {
     domains: [],
   },
+  eslint: {
+    // Allow production builds to complete even with ESLint warnings
+    ignoreDuringBuilds: false,
+  },
 };
 
 module.exports = nextConfig;

@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div className="col-span-1 md:col-span-2">
-            <Logo href={null} />
+            <Logo href={undefined} />
             <p className="mt-4 text-base-content/70 max-w-md">
               AI-powered churn prevention for indie founders and micro-SaaS.
               Stop losing customers, start keeping them.
