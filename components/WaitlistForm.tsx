@@ -2,6 +2,7 @@
 
 import { useState, FormEvent } from "react";
 import toast from "react-hot-toast";
+import { getPostHog } from "@/lib/posthog";
 
 interface WaitlistFormProps {
   compact?: boolean;
@@ -47,6 +48,25 @@ export default function WaitlistForm({ compact = false }: WaitlistFormProps) {
 
       toast.success("🎉 You're on the waitlist! Check your email for confirmation.");
       setSubmitted(true);
+      
+      // Track event in PostHog
+      if (typeof window !== 'undefined') {
+        try {
+          const cookieConsent = localStorage.getItem("cookieConsent");
+          if (cookieConsent === "accepted") {
+            const posthog = getPostHog();
+            if (posthog && (posthog as any).__loaded) {
+              posthog.capture('waitlist_signup', {
+                email: email.toLowerCase().trim(),
+                name: name.trim(),
+              });
+            }
+          }
+        } catch (error) {
+          console.warn('PostHog tracking failed:', error);
+        }
+      }
+      
       setName("");
       setEmail("");
     } catch (error: any) {

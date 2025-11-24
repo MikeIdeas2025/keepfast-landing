@@ -29,9 +29,13 @@ Aggiungi queste variabili d'ambiente in Vercel Dashboard → Settings → Enviro
 
 ```
 RESEND_API_KEY=re_KDRoY9nQ_HxP2ve8KK37t4VctU3PRcgoX
+NEXT_PUBLIC_POSTHOG_KEY=phc_96nZpLclqLEYOaYwRQm71P59Mz3TdXSxNiiWCyxmSQu
+NEXT_PUBLIC_POSTHOG_HOST=https://eu.i.posthog.com
 ```
 
-**Nota**: Aggiungi anche `RESEND_FROM_EMAIL` dopo aver verificato il dominio in Resend (Step 3).
+**Nota**: 
+- Aggiungi anche `RESEND_FROM_EMAIL` dopo aver verificato il dominio in Resend (Step 3).
+- Le variabili PostHog sono necessarie per l'analytics. Il cookie banner funzionerà anche senza PostHog configurato.
 
 ### 1.4 Deploy
 
@@ -131,8 +135,8 @@ RESEND_FROM_EMAIL=Keepfa.st <hello@keepfa.st>
 ### 4.2 Test SEO
 
 - Verifica che `https://keepfa.st/sitemap.xml` funzioni
-- Verifica che `https://keepfa.st/robots.txt` funzioni
-- Testa con [Google Rich Results Test](https://search.google.com/test/rich-results)
+- Verifica che `https://keepfa.st/robots.txt` funzionigle.com/t
+- Testa con [Google Rich Results Test](https://search.googletest/rich-results)
 
 ## Checklist Pre-Deploy
 

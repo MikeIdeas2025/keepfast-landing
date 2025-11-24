@@ -48,10 +48,26 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Legal */}
           <div>
-            <h4 className="font-bold mb-4 text-gray-900">Company</h4>
+            <h4 className="font-bold mb-4 text-gray-900">Legal</h4>
             <ul className="space-y-2">
+              <li>
+                <Link 
+                  href="/privacy-policy" 
+                  className="link link-hover text-gray-600 hover:text-brand-yellow transition-colors duration-200"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/cookie-policy" 
+                  className="link link-hover text-gray-600 hover:text-brand-yellow transition-colors duration-200"
+                >
+                  Cookie Policy
+                </Link>
+              </li>
               <li>
                 <a
                   href="https://twitter.com/keepfast"

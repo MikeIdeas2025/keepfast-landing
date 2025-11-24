@@ -2,6 +2,8 @@ import { ReactNode } from "react";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import { Toaster } from "react-hot-toast";
+import PostHogProvider from "@/components/PostHogProvider";
+import CookieBanner from "@/components/CookieBanner";
 import "./globals.css";
 
 const font = Inter({ subsets: ["latin"] });
@@ -65,6 +67,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" data-theme="light" className={font.className}>
       <body>
+        <PostHogProvider />
         <Toaster
           position="top-center"
           toastOptions={{
@@ -82,6 +85,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           }}
         />
         {children}
+        <CookieBanner />
       </body>
     </html>
   );
