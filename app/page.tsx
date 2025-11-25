@@ -356,7 +356,7 @@ export default function Home() {
                 💼
               </div>
 
-              <h3 className="text-2xl font-bold mb-3">Micro-SaaS ($9-$75k MRR)</h3>
+              <h3 className="text-2xl font-bold mb-3">Micro SaaS and SaaS from $150 to $100K MRR</h3>
               <p className="text-gray-600 mb-6 leading-relaxed text-sm">
                 For growing SaaS: marketing, support, features. Simple non-intrusive actions
               </p>
