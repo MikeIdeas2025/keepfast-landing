@@ -351,13 +351,7 @@ export default function Home() {
             </div>
 
             {/* Micro-SaaS Plan */}
-            <div className="card-modern group relative border-2 border-brand-yellow">
-              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 z-10">
-                <span className="bg-gradient-yellow px-4 py-1.5 rounded-full text-xs font-bold shadow-yellow">
-                  Most Popular
-                </span>
-              </div>
-
+            <div className="card-modern group border-2 border-brand-yellow">
               <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-pink-600 rounded-xl flex items-center justify-center text-white text-2xl mb-5 shadow-lg group-hover:scale-110 transition-transform duration-300">
                 💼
               </div>
