@@ -322,67 +322,67 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {/* Indie Founders Plan */}
             <div className="card-modern group">
-              <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center text-white text-2xl mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+              <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center text-white text-2xl mb-5 shadow-lg group-hover:scale-110 transition-transform duration-300">
                 👤
               </div>
 
-              <h3 className="text-2xl font-bold mb-2">Indie Founders</h3>
-              <p className="text-gray-600 mb-6 min-h-[60px] leading-relaxed">
+              <h3 className="text-2xl font-bold mb-3">Indie Founders</h3>
+              <p className="text-gray-600 mb-6 leading-relaxed text-sm">
                 For indie hackers and makers building and optimizing, and can't afford to lose MRR to preventable churn
               </p>
 
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <span className="text-green-500 text-xl flex-shrink-0">✓</span>
-                  <span className="text-gray-700">No setup fees required</span>
+              <ul className="space-y-2.5">
+                <li className="flex items-center gap-2.5">
+                  <span className="text-green-500 text-lg flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm">No setup fees required</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-green-500 text-xl flex-shrink-0">✓</span>
-                  <span className="text-gray-700">Simple integration</span>
+                <li className="flex items-center gap-2.5">
+                  <span className="text-green-500 text-lg flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm">Simple integration</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-green-500 text-xl flex-shrink-0">✓</span>
-                  <span className="text-gray-700">Works with signals, not games</span>
+                <li className="flex items-center gap-2.5">
+                  <span className="text-green-500 text-lg flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm">Works with signals, not games</span>
                 </li>
               </ul>
             </div>
 
             {/* Micro-SaaS Plan */}
             <div className="card-modern group relative border-2 border-brand-yellow">
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
-                <span className="bg-gradient-yellow px-4 py-2 rounded-full text-sm font-bold shadow-yellow">
+              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 z-10">
+                <span className="bg-gradient-yellow px-4 py-1.5 rounded-full text-xs font-bold shadow-yellow">
                   Most Popular
                 </span>
               </div>
 
-              <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-pink-600 rounded-xl flex items-center justify-center text-white text-2xl mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+              <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-pink-600 rounded-xl flex items-center justify-center text-white text-2xl mb-5 shadow-lg group-hover:scale-110 transition-transform duration-300">
                 💼
               </div>
 
-              <h3 className="text-2xl font-bold mb-2">Micro-SaaS ($9-$75k MRR)</h3>
-              <p className="text-gray-600 mb-6 min-h-[60px] leading-relaxed">
+              <h3 className="text-2xl font-bold mb-3">Micro-SaaS ($9-$75k MRR)</h3>
+              <p className="text-gray-600 mb-6 leading-relaxed text-sm">
                 For growing SaaS: marketing, support, features. Simple non-intrusive actions
               </p>
 
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <span className="text-green-500 text-xl flex-shrink-0">✓</span>
-                  <span className="text-gray-700">Everything in Indie tier</span>
+              <ul className="space-y-2.5">
+                <li className="flex items-center gap-2.5">
+                  <span className="text-green-500 text-lg flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm">Everything in Indie tier</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-green-500 text-xl flex-shrink-0">✓</span>
-                  <span className="text-gray-700">Billing automations</span>
+                <li className="flex items-center gap-2.5">
+                  <span className="text-green-500 text-lg flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm">Billing automations</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-green-500 text-xl flex-shrink-0">✓</span>
-                  <span className="text-gray-700">Landing audits</span>
+                <li className="flex items-center gap-2.5">
+                  <span className="text-green-500 text-lg flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm">Landing audits</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-green-500 text-xl flex-shrink-0">✓</span>
-                  <span className="text-gray-700">Feature feedback</span>
+                <li className="flex items-center gap-2.5">
+                  <span className="text-green-500 text-lg flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm">Feature feedback</span>
                 </li>
               </ul>
             </div>
@@ -456,24 +456,39 @@ export default function Home() {
           </p>
 
           {/* Social Media Icons */}
-          <div className="flex justify-center gap-4 mt-12">
+          <div className="flex justify-center gap-3 mt-12">
             <a
-              href="https://twitter.com/keepfast"
+              href="https://x.com/MicLau93"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 bg-blue-400 rounded-full flex items-center justify-center text-white hover:bg-blue-500 transition-colors"
-              aria-label="Follow us on Twitter"
+              className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-700 hover:bg-gray-200 hover:text-black transition-all duration-200"
+              aria-label="Follow on X"
             >
-              <span className="text-xl">𝕏</span>
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
             </a>
             <a
-              href="https://linkedin.com/company/keepfast"
+              href="https://www.linkedin.com/in/michlauro/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center text-white hover:bg-blue-800 transition-colors"
+              className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-700 hover:bg-blue-100 hover:text-blue-700 transition-all duration-200"
               aria-label="Connect on LinkedIn"
             >
-              <span className="text-xl">in</span>
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .771 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+            <a
+              href="https://github.com/MikeIdeas2025/keepfast-landing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-700 hover:bg-gray-800 hover:text-white transition-all duration-200"
+              aria-label="View on GitHub"
+            >
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd"/>
+              </svg>
             </a>
           </div>
         </div>

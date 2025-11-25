@@ -70,22 +70,32 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://twitter.com/keepfast"
+                  href="https://x.com/MicLau93"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link link-hover text-gray-600 hover:text-brand-yellow transition-colors duration-200"
                 >
-                  Twitter
+                  X (Twitter)
                 </a>
               </li>
               <li>
                 <a
-                  href="https://linkedin.com/company/keepfast"
+                  href="https://www.linkedin.com/in/michlauro/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link link-hover text-gray-600 hover:text-brand-yellow transition-colors duration-200"
                 >
                   LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/MikeIdeas2025/keepfast-landing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link link-hover text-gray-600 hover:text-brand-yellow transition-colors duration-200"
+                >
+                  GitHub
                 </a>
               </li>
             </ul>
