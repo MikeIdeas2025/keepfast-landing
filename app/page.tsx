@@ -310,15 +310,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section id="pricing" className="bg-white section-padding">
+      {/* Who is it for Section */}
+      <section id="who-is-it-for" className="bg-white section-padding">
         <div className="max-w-7xl mx-auto px-4 lg:px-8">
           <div className="text-center mb-16 animate-on-scroll">
             <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-              Built for Indie founders
+              Who is it for
             </h2>
             <p className="text-xl text-gray-600">
-              For indie founders and micro-saas only
+              Built for indie founders and micro-SaaS teams
             </p>
           </div>
 

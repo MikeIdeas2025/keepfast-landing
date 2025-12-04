@@ -28,10 +28,10 @@ export default function Header() {
             How It Works
           </Link>
           <Link 
-            href="#pricing" 
+            href="#who-is-it-for" 
             className="link link-hover font-medium text-gray-700 hover:text-brand-yellow transition-colors duration-200"
           >
-            Pricing
+            Who is it for
           </Link>
         </nav>
 
@@ -124,11 +124,11 @@ export default function Header() {
               How It Works
             </Link>
             <Link
-              href="#pricing"
+              href="#who-is-it-for"
               className="link link-hover font-medium text-gray-700 py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Pricing
+              Who is it for
             </Link>
             <Link
               href="#waitlist"

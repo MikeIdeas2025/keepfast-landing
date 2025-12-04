@@ -31,10 +31,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link 
-                  href="#pricing" 
+                  href="#who-is-it-for" 
                   className="link link-hover text-gray-600 hover:text-brand-yellow transition-colors duration-200"
                 >
-                  Pricing
+                  Who is it for
                 </Link>
               </li>
               <li>
